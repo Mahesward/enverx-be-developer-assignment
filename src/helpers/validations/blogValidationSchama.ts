@@ -6,11 +6,13 @@ export const blogSchema = Joi.object({
              .max(15)
              .required()
              .trim(),
+
   title: Joi.string()
             .min(3)
             .max(20)
             .required()
             .trim(),
+            
   content: Joi.string()
             .min(3)
             .max(2000)

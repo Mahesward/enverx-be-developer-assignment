@@ -40,7 +40,7 @@ export const addNewBlog = async (req: Request, res: Response) => {
     //* adding blog to db
 
     await Blog.insertMany(isBlogValid);
-    return res.status(200).send({ success: true, message: 'add new blogs successfull' });
+    return res.status(200).send({ success: true, message: 'add new blog successfull' });
   } catch (error) {
     return res.status(500).send({
       succes: false,
