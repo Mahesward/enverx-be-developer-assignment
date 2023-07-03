@@ -23,7 +23,7 @@ add environment variables
 MONGODB_URL = <--mongodb_url-->
 PORT = <---port--->
 
-### example 
+example 
 
 MONGODB_URL = "mongodb://127.0.0.1:27017/blog-app"
 PORT = "9001"
